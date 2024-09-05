@@ -1,0 +1,1 @@
+bindsym F12 exec --no-startup-id ~/caps_ibus_switch.sh

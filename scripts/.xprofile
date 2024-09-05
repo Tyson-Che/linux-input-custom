@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Disable CapsLock
+setxkbmap -option caps:none
+
+# Map CapsLock to Escape
+xmodmap -e 'keycode 66 = Escape NoSymbol Escape'
+
+# Use xcape to make a tap on Escape send F12
+xcape -e 'Escape=F12'
